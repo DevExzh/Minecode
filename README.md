@@ -6,11 +6,10 @@
 <div><img src="https://upload.cc/i1/2018/12/09/ZbJyP9.png" hieght = "164" width = "100"/>
 <div>
 `#include Exzh_PMGI.h`<br>
-10 岁初入编程领域，学习的是 C#
-自学计算机课程并热爱 C/C++ 开发的童鞋~
+自学计算机课程并热爱 C/C++ 开发的童鞋~<br>
 欢迎志同道合之士来切磋技术<br>
-Email: realexzh@gmail.com
-Location: Shanghai, China
+Email: realexzh@gmail.com<br>
+Location: Shanghai, China<br>
 </div>
 </div>
 
