@@ -3,15 +3,9 @@
 ##### 基于 Qt 框架的开源跨平台 Minecraft 集成开发环境
 
 >#### 关于开发者
-<div><img src="https://upload.cc/i1/2018/12/09/ZbJyP9.png" hieght = "164" width = "100"/>
-<div>
-`#include Exzh_PMGI.h`<br>
-自学计算机课程并热爱 C/C++ 开发的童鞋~<br>
-欢迎志同道合之士来切磋技术<br>
+<img src="https://upload.cc/i1/2018/12/09/ZbJyP9.png" hieght = "164" width = "100"/>
 Email: realexzh@gmail.com<br>
 Location: Shanghai, China<br>
-</div>
-</div>
 
 ### F&Q
 ------------
