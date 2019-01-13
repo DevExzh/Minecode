@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mcNotification</class>
+ <widget class="QWidget" name="mcNotification">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>380</width>
+    <height>204</height>
+   </rect>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(213, 213, 213);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>8</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QTabWidget" name="pageContainer">
+     <property name="font">
+      <font>
+       <family>方正黑体简体</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTabWidget{
+	border: 0px;
+    border-radius: 0px;
+}
+
+QTabWidget::pane{
+	border: 0px;
+    border-top: 8px solid transparent;
+}
+
+QTabWidget QTabBar::tab:first{
+    margin-left: 0px;
+}
+
+QTabWidget QTabBar::tab{
+    color: #fff;
+	border: 0px;
+    border-radius:12px;
+    background: rgb(120,120,120);
+    padding: 4 18 4 18px;
+    margin-left: 6px;
+}
+
+QTabWidget QTabBar{
+    background: transparent;
+}
+
+QTabWidget QTabBar::tab:selected{
+    background: rgb(90,90,90);
+}
+
+QTabWidget&gt;QWidget&gt;QWidget{
+    background: #fff;
+}
+
+QTabWidget::tab-bar{
+    alignment: center;
+}</string>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="icon">
+       <iconset resource="../../resources.qrc">
+        <normaloff>:/actionbar/resources/actionbar/warning.svg</normaloff>:/actionbar/resources/actionbar/warning.svg</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>Warning</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="icon">
+       <iconset resource="../../resources.qrc">
+        <normaloff>:/actionbar/resources/actionbar/error.svg</normaloff>:/actionbar/resources/actionbar/error.svg</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>Error</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="icon">
+       <iconset resource="../../resources.qrc">
+        <normaloff>:/actionbar/resources/actionbar/info.svg</normaloff>:/actionbar/resources/actionbar/info.svg</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>Information</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
