@@ -1,0 +1,11 @@
+﻿#ifndef MCGLOBAL_H
+#define MCGLOBAL_H
+#include "exglobal.h"
+#include "services/exfontprovider.h"
+#include "services/exconfigprovider.h"
+#include "services/exstyleprovider.h"
+
+#define MinecodeProviders class exFontProvider; \
+    class exConfigProvider; \
+    class exStyleProvider;
+#endif // MCGLOBAL_H

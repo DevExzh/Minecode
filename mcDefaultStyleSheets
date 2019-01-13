@@ -1,0 +1,198 @@
+﻿#ifndef MCDEFAULTSTYLESHEETS_H
+#define MCDEFAULTSTYLESHEETS_H
+
+#define StylePureWhite "QPushButton{ \
+min-height: 26px; \
+padding-left: 16px; \
+padding-right: 16px; \
+background-color: rgb(250, 250, 250); \
+border-radius:8px; \
+border: 1px solid rgb(200, 200, 200); \
+} \
+\
+QPushButton:checked{ \
+background-color: #2196f3; \
+color: #fff; \
+} \
+\
+QPushButton:checked:hover{ \
+background-color: #1e88e5; \
+color: #fff; \
+} \
+\
+QPushButton:hover{ \
+background-color: rgb(245, 245, 245); \
+} \
+\
+QPushButton:disabled{ \
+background-color: rgb(235, 235, 235); \
+} \
+\
+QCheckBox::indicator:checked,QGroupBox::indicator:checked{ \
+image: url(:/texture/resources/texture/check-circle.svg); \
+border: 0px; \
+} \
+\
+QCheckBox::indicator:checked:disabled,QGroupBox::indicator:checked:disabled{ \
+image: url(:/texture/resources/texture/check-circle_disabled.svg); \
+border: 0px; \
+} \
+\
+QCheckBox::indicator,QGroupBox::indicator{ \
+image: url(:/texture/resources/texture/circle.svg); \
+border: 0px; \
+} \
+\
+QComboBox { \
+min-height: 20px; \
+border: 1px solid gray; \
+border-radius: 4px; \
+padding: 1px 4px 1px 4px; \
+background-color: rgb(255, 255, 255); \
+width: 60px; \
+text-align: center; \
+} \
+\
+QComboBox::drop-down { \
+subcontrol-origin: padding; \
+subcontrol-position: top right; \
+background: rgb(255, 255, 255); \
+border-left-width: 1px; \
+border-left-color: darkgray; \
+border-left-style: solid; \
+border-top-right-radius: 4px; \
+border-bottom-right-radius: 4px; \
+} \
+\
+QComboBox::down-arrow:hover { \
+image: url(:/texture/resources/texture/down-arrow_hover.svg); \
+} \
+\
+QComboBox::down-arrow {     \
+image: url(:/texture/resources/texture/down-arrow.svg); \
+width: 10px; \
+} \
+\
+QDateTimeEdit,QTimeEdit,QDoubleSpinBox,QSpinBox{ \
+background: rgb(250, 250, 250); \
+border: 1px solid rgb(200, 200, 200); \
+border-radius: 6px; \
+padding-left: 12px; \
+padding-right: 2px; \
+} \
+\
+QDateTimeEdit::up-button,QTimeEdit::up-button,QDoubleSpinBox::up-button,QSpinBox::up-button { \
+subcontrol-origin:border; \
+padding-top:3px; \
+image: url(:/texture/resources/texture/combo-up.svg); \
+height: 10px; \
+} \
+\
+QDateTimeEdit::up-button:hover,QTimeEdit::up-button:hover,QDoubleSpinBox::up-button:hover,QSpinBox::up-button:hover { \
+image: url(:/texture/resources/texture/combo-up_hover.svg); \
+} \
+\
+QDateTimeEdit::down-button,QTimeEdit::down-button,QDoubleSpinBox::down-button,QSpinBox::down-button { \
+subcontrol-origin:border; \
+padding-bottom:3px; \
+image: url(:/texture/resources/texture/combo-down.svg); \
+height: 10px; \
+} \
+\
+QDateTimeEdit::up-button:disabled,QTimeEdit::up-button:disabled,QDoubleSpinBox::up-button:disabled,QSpinBox::up-button:disabled { \
+image: url(:/texture/resources/texture/combo-up_disabled.svg); \
+} \
+\
+QDateTimeEdit::down-button:hover,QTimeEdit::down-button:hover,QDoubleSpinBox::down-button:hover,QSpinBox::down-button:hover { \
+image: url(:/texture/resources/texture/combo-down_hover.svg); \
+} \
+\
+QDateTimeEdit::down-button:disabled,QTimeEdit::down-button:disabled,QDoubleSpinBox::down-button:disabled,QSpinBox::down-button:disabled { \
+image: url(:/texture/resources/texture/combo-down_disabled.svg); \
+} \
+\
+QRadioButton::indicator:unchecked{ \
+image: url(:/texture/resources/texture/radio_normal.svg); \
+} \
+\
+QRadioButton::indicator:checked{ \
+image: url(:/texture/resources/texture/radio_checked.svg); \
+} \
+\
+QRadioButton::indicator:checked:disabled{ \
+image: url(:/texture/resources/texture/radio_checked_disabled.svg); \
+} \
+\
+QRadioButton::indicator:unchecked:hover{ \
+image: url(:/texture/resources/texture/radio_hover.svg); \
+} \
+\
+QRadioButton::indicator:checked:hover{ \
+image: url(:/texture/resources/texture/radio_checked_hover.svg); \
+} \
+\
+QDateTimeEdit,QTimeEdit,QDoubleSpinBox,QSpinBox{ \
+min-height: 24px; \
+} \
+\
+QLineEdit{ \
+min-height: 24px; \
+border: 1px solid rgb(200, 200, 200); \
+border-radius: 12px; \
+padding-left: 10px; \
+padding-right: 10px; \
+} \
+\
+QGroupBox{ \
+border:1px solid gray; \
+border-radius:24px; \
+margin-top:3ex; \
+} \
+\
+QGroupBox::title{ \
+subcontrol-origin: margin; \
+subcontrol-position: top center; \
+padding:2 3px; \
+} \
+\
+QScrollBar:vertical{ \
+    background-color: transparent; \
+    width:4px; \
+} \
+\
+QScrollBar:horizontal{ \
+    background-color: transparent; \
+    height:4px; \
+} \
+\
+QScrollBar::handle:horizontal{ \
+    background-color: rgba(90, 90, 90, 100); \
+    height:4px; \
+    border-radius: 2px; \
+    margin: 0 0 0 0px; \
+} \
+\
+QScrollBar::up-arrow,QScrollBar::down-arrow{ \
+    border:0px; \
+    height:0px; \
+    width:0px; \
+} \
+\
+QScrollBar::add-line,QScrollBar::sub-line{ \
+    border:0px; \
+    height: 0px; \
+    width: 0px; \
+} \
+\
+QScrollBar::handle:vertical{ \
+    background-color: rgba(90, 90, 90, 100); \
+    width:4px; \
+    border-radius: 2px; \
+    margin: 0 0 0 0px; \
+} \
+\
+QScrollBar::handle:hover{ \
+    background-color: rgba(90, 90, 90, 170); \
+} "
+
+#endif // MCDEFAULTSTYLESHEETS_H

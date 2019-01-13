@@ -1,0 +1,14 @@
+﻿#ifndef MCDIALOGS_H
+#define MCDIALOGS_H
+#include "dialogs/mcprojectdialog.h"
+#include "dialogs/mcemptycodeeditorwidget.h"
+#include "dialogs/mcfiledialog.h"
+#include "dialogs/mcpreferencedialog.h"
+#include "dialogs/mcaboutdialog.h"
+
+#define MinecodeDialogs class mcAboutDialog; \
+    class mcBusyWindow; \
+    class mcFileDialog; \
+    class mcPreferenceDialog; \
+    class mcProjectDialog;
+#endif // MCDIALOGS_H
