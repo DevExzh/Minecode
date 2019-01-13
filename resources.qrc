@@ -1,0 +1,116 @@
+<RCC>
+    <qresource prefix="/splashscr">
+        <file>resources/splashscr/SplashScreen.svg</file>
+    </qresource>
+    <qresource prefix="/logo">
+        <file>resources/logo/MinecodeHelperIcon.svg</file>
+        <file>resources/logo/MinecodeIcon.svg</file>
+    </qresource>
+    <qresource prefix="/texture">
+        <file>resources/texture/menu-left.svg</file>
+        <file>resources/texture/menu-right.svg</file>
+        <file>resources/texture/check-circle.svg</file>
+        <file>resources/texture/circle.svg</file>
+        <file>resources/texture/check-circle_disabled.svg</file>
+        <file>resources/texture/circle_disabled.svg</file>
+        <file>resources/texture/down-arrow.svg</file>
+        <file>resources/texture/down-arrow_hover.svg</file>
+        <file>resources/texture/radio_checked.svg</file>
+        <file>resources/texture/radio_checked_disabled.svg</file>
+        <file>resources/texture/radio_checked_hover.svg</file>
+        <file>resources/texture/radio_hover.svg</file>
+        <file>resources/texture/radio_normal.svg</file>
+        <file>resources/texture/combo-down.svg</file>
+        <file>resources/texture/combo-down_hover.svg</file>
+        <file>resources/texture/combo-up.svg</file>
+        <file>resources/texture/combo-up_hover.svg</file>
+        <file>resources/texture/combo-down_disabled.svg</file>
+        <file>resources/texture/combo-up_disabled.svg</file>
+    </qresource>
+    <qresource prefix="/toolbar">
+        <file>resources/toolbar/redo.svg</file>
+        <file>resources/toolbar/undo.svg</file>
+        <file>resources/toolbar/arrow-left.svg</file>
+        <file>resources/toolbar/arrow-right.svg</file>
+        <file>resources/toolbar/folder-open.svg</file>
+    </qresource>
+    <qresource prefix="/menu">
+        <file>resources/menu/broom.svg</file>
+        <file>resources/menu/close.svg</file>
+        <file>resources/menu/new.svg</file>
+        <file>resources/menu/quit.svg</file>
+        <file>resources/menu/save.svg</file>
+        <file>resources/menu/open.svg</file>
+    </qresource>
+    <qresource prefix="/quickbar">
+        <file>resources/quickbar/designer.svg</file>
+        <file>resources/quickbar/editor.svg</file>
+        <file>resources/quickbar/help.svg</file>
+        <file>resources/quickbar/project.svg</file>
+        <file>resources/quickbar/welcome.svg</file>
+        <file>resources/quickbar/build.svg</file>
+        <file>resources/quickbar/debug.svg</file>
+        <file>resources/quickbar/release.svg</file>
+        <file>resources/quickbar/run.svg</file>
+    </qresource>
+    <qresource prefix="/misc">
+        <file>resources/misc/folder.svg</file>
+        <file>resources/misc/minecraft.svg</file>
+        <file>resources/misc/view-grid.svg</file>
+        <file>resources/misc/view-grid_checked.svg</file>
+        <file>resources/misc/view-list.svg</file>
+        <file>resources/misc/view-list_checked.svg</file>
+    </qresource>
+    <qresource prefix="/types">
+        <file>resources/types/language-cpp.svg</file>
+        <file>resources/types/language-csharp.svg</file>
+        <file>resources/types/language-css3.svg</file>
+        <file>resources/types/language-html5.svg</file>
+        <file>resources/types/language-javascript.svg</file>
+        <file>resources/types/language-python.svg</file>
+        <file>resources/types/solution.svg</file>
+        <file>resources/types/application.svg</file>
+        <file>resources/types/class.svg</file>
+        <file>resources/types/library.svg</file>
+        <file>resources/types/file.svg</file>
+        <file>resources/types/form.svg</file>
+    </qresource>
+    <qresource prefix="/tabbar">
+        <file>resources/tabbar/close-button.svg</file>
+        <file>resources/tabbar/close-button_disabled.svg</file>
+        <file>resources/tabbar/close-button_hover.svg</file>
+    </qresource>
+    <qresource prefix="/navbar">
+        <file>resources/navbar/arrow-left.svg</file>
+        <file>resources/navbar/arrow-left_checked.svg</file>
+        <file>resources/navbar/arrow-right.svg</file>
+        <file>resources/navbar/arrow-right_checked.svg</file>
+        <file>resources/navbar/filter.svg</file>
+        <file>resources/navbar/filter_checked.svg</file>
+        <file>resources/navbar/search.svg</file>
+        <file>resources/navbar/search_checked.svg</file>
+        <file>resources/navbar/arrow-up.svg</file>
+        <file>resources/navbar/arrow-up_checked.svg</file>
+        <file>resources/navbar/refresh.svg</file>
+        <file>resources/navbar/refresh_checked.svg</file>
+    </qresource>
+    <qresource prefix="/editorpages">
+        <file>resources/editorpages/editor.svg</file>
+        <file>resources/editorpages/environment.svg</file>
+        <file>resources/editorpages/general.svg</file>
+        <file>resources/editorpages/network.svg</file>
+        <file>resources/editorpages/ui.svg</file>
+    </qresource>
+    <qresource prefix="/actionbar">
+        <file>resources/actionbar/action_options.svg</file>
+        <file>resources/actionbar/switch.svg</file>
+        <file>resources/actionbar/task.svg</file>
+        <file>resources/actionbar/schematics.svg</file>
+        <file>resources/actionbar/error.svg</file>
+        <file>resources/actionbar/error_actived.svg</file>
+        <file>resources/actionbar/info.svg</file>
+        <file>resources/actionbar/info_actived.svg</file>
+        <file>resources/actionbar/warning.svg</file>
+        <file>resources/actionbar/warning_actived.svg</file>
+    </qresource>
+</RCC>
